@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reverse Shell PHP Script</title>
-</head>
-
 <body>
 
 <h1>Reverse Shell PHP Script</h1>
@@ -51,26 +42,6 @@
 <pre><code>nc -lvnp YOUR_PORT</code></pre>
 
 <p>Replace  <code>YOUR_PORT</code> with the IP address and port number configured in the script.</p>
-
-<h2>Disclaimer</h2>
-
-<p><strong>Use this script responsibly and only in environments where you have explicit permission to do so. Unauthorized access to computer systems is illegal and unethical.</strong></p>
-
-<h2>Important Notes</h2>
-
-<ul>
-<li>The script utilizes features like <code>pcntl_fork</code> and <code>proc_open</code> to enhance its functionality. Ensure that these features are available and enabled on your PHP environment.</li>
-<li>The script attempts to daemonize itself for better background execution. If daemonization fails, a warning will be displayed, but the script will continue to run.</li>
-<li>For debugging purposes, you can enable the <code>$debug</code> variable in the script to print additional information.</li>
-</ul>
-
-<h2>Contributing</h2>
-
-<p>Contributions are welcome! Feel free to submit issues or pull requests.</p>
-
-<h2>License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
 </body>
 
